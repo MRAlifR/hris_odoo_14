@@ -1,0 +1,5 @@
+<odoo>
+    <template id="debrand_promotion" inherit_id="web.brand_promotion">
+        <xpath expr="//t[@t-call='web.brand_promotion_message']" position="replace"/>
+    </template>
+</odoo>
